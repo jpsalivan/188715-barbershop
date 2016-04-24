@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Барбершоп «Бородинский»</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="header-logo">
+        <img src="img/header-logo.png" width="112" height="25" alt="Барбершоп «Бородинский»">
+      </div>
+      <div class="container">
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Новости</a>
+            </li>
+            <li>
+              <a href="#">Прайс-лист</a>
+            </li>
+            <li>
+              <a href="#">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <a class="login" href="#">Вход</a>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <h1>Средства для ухода</h1>
+      <ul class="breadcrumb">
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Магазин</a></li>
+        <li class="active">Средства для ухода</li> 
+      </ul>
+      <form class="filter" action="https://echo.htmlacademy.ru" method="post">
+        <h2>Производители:</h2>
+          <input type="checkbox" name="Baxter of California" id="BaxterOfCalifornia-field" checked>
+          <label for="BaxterOfCalifornia-field">Baxter of California</label>
+          <input type="checkbox" name="Mr Natty" id="MrNatty-field">
+          <label for="MrNatty-field">Mr Natty</label>
+          <input type="checkbox" name="Suavecito" id="Suavecito-field" checked>
+          <label for="Suavecito-field">Suavecito</label>  
+          <input type="checkbox" name="Malin+Goetz" id="Malin+Goetz-field">
+          <label for="Malin+Goetz-field">Malin+Goetz</label>
+          <input type="checkbox" name="Murray's" id="Murray's-field">
+          <label for="Murray's-field">Murray's</label>
+          <input type="checkbox" name="American Crew" id="AmericanCrew-field" checked>
+          <label for="AmericanCrew-field">American Crew</label>
+        <h2>Группы товаров:</h2>
+          <input type="checkbox" name="tovar-1" id="tovar-1-field">
+          <label for="tovar-1-field">Бритвенные принадлежности</label>
+          <input type="checkbox" name="tovar-2" id="tovar-2-field" checked>
+          <label for="tovar-2-field">Средства для ухода</label>
+          <input type="checkbox" name="tovar-3" id="tovar-3-field">
+          <label for="tovar-3-field">Аксессуары</label>
+        <a class="btn" href="#">Показать</a>
+      </form>
+      <article class="article-item">
+        <a href="#"><img src="item-1.jpg" width="220" height="165" alt="Набор для путешествий Baxter of California"></a>
+        <span><a href="#">Набор для путешествий<br>
+          "Baxter of California"</a></span>
+        <div class="block block1">2 900 руб./</div>
+        <div class="block block2"><a class="btn" href="#">Купить</a></div>
+      </article>
+      <article class="article-item">
+        <a href="#"><img src="item-2.jpg" width="220" height="165" alt="Увлажняющий кондиционер Baxter of California"></a>
+        <span><a href="#">Увлажняющий кондиционер<br>
+          "Baxter of California"</a></span>
+        <div class="block block1">750 руб./</div>
+        <div class="block block2"><a class="btn" href="#">Купить</a></div>
+      </article>
+      <article class="article-item">
+        <a href="#"><img src="item-3.jpg" width="220" height="165" alt="Гель для волос Suavecito"></a>
+        <span><a href="#">Гель для волос<br>
+          "Suavecito"</a></span>
+        <div class="block block1">290 руб./</div>
+        <div class="block block2"><a class="btn" href="#">Купить</a></div>
+      </article>
+      <article class="article-item">
+        <a href="#"><img src="item-4.jpg" width="220" height="165" alt="Гель для укладки волос American Crew"></a>
+        <span><a href="#">Гель для укладки волос<br>
+          "American Crew"</a></span>
+        <div class="block block1">500 руб./</div>
+        <div class="block block2"><a class="btn" href="#">Купить</a></div>
+      </article>
+      <article class="article-item">
+        <a href="#"><img src="item-5.jpg" width="220" height="165" alt="Гель для волос American Crew"></a>
+        <span><a href="#">Гель для волос<br>
+          "American Crew"</a></span>
+        <div class="block block1">300 руб./</div>
+        <div class="block block2"><a class="btn" href="#">Купить</a></div>
+      </article>
+      <article class="article-item">
+        <a href="#"><img src="item-6.jpg" width="220" height="165" alt="Набор для бритья Baxter of California"></a>
+        <span><a href="#">Набор для бритья<br>
+          "Baxter of California"</a></span>
+        <div class="block block1">3 900 руб./</div>
+        <div class="block block2"><a class="btn" href="#">Купить</a></div>
+      </article>
+      <div class="pagination">
+        <a class="btn" href="#">1</a>
+        <div class="current">2</div>
+        <a class="btn" href="#">3</a>
+        <a class="btn" href="#">4</a>
+      </div> 
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+        <section class="footer-contacts">
+          Барбершоп «Бородинский»<br>
+          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          <a href="#">Как нас найти?</a><br>
+          Телефон: +7 (812) 666-02-66
+        </section>
+        <section class="footer-social">
+          <p>Давайте дружить!</p>
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+          <a class="social-btn social-btn-new" href="#">Новая кнопка</a>
+        </section>
+        <section class="footer-copyright">
+          <p>Разработано:</p>
+          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
